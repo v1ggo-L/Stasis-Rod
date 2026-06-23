@@ -1,0 +1,17 @@
+name: StasisPlugin
+version: 1.0.0
+main: com.stasis.plugin.StasisPlugin
+api-version: '1.21'
+description: Stasis Chamber - Remote Redstone via Pressure Plate and Fishing Rod
+authors: [StasisDev]
+
+commands:
+  stasis:
+    description: Activate stasis on the pressure plate you are standing on
+    usage: /stasis
+    permission: stasis.use
+
+permissions:
+  stasis.use:
+    description: Allows use of the /stasis command
+    default: true
